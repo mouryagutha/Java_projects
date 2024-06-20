@@ -21,6 +21,7 @@ class BankDetails {
     //method to display account details  
     public void showAccount() {
         System.out.println("Name of account holder: " + name);
+
         System.out.println("Account no.: " + accno);
         System.out.println("Account type: " + acc_type);
         System.out.println("Balance: " + balance);
